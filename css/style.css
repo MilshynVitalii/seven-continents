@@ -1,3 +1,16 @@
 * {
   box-sizing: border-box;
 }
+h1 {
+  font-family: Roboto Slab, sans-serif;
+}
+h2 {
+  font-family: Circe, sans-serif;
+}
+p {
+  font-family: Circe, sans-serif;
+}
+span {
+  font-family: Circe, sans-serif;
+  font-weight: 200;
+}
