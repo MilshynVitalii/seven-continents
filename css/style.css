@@ -10,12 +10,8 @@ body {
   font-family: Circe, sans-serif;
   font-weight: 200;
   color: #001e28;
-}
-
-.container {
-  max-width: 1170px;
+  max-width: 1920px;
   margin: auto;
-  height: 100%;
 }
 
 a {
@@ -31,6 +27,13 @@ a:active {
   text-decoration: none;
 }
 
+/* Main blocks */
+.container {
+  max-width: 1170px;
+  margin: auto;
+  height: 100%;
+}
+
 .tel {
   font-family: Roboto Slab;
   font-weight: 700;
@@ -38,7 +41,7 @@ a:active {
 }
 
 .main-button {
-  width: 170px;
+  width: 100%;
   height: 45px;
   background-color: #ffaf02;
   color: #ffffff;
@@ -58,10 +61,31 @@ a:active {
   outline: none;
 }
 
-/* header */
-/* logo */
+/* titles styles */
+.section-title {
+  font-family: Roboto Slab, sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+.section-secondary-title {
+  font-size: 22px;
+  text-align: center;
+}
+
+.info-block > * {
+  margin: 0;
+}
+
+/* HEADER section */
+/* HEADER | logo */
 .header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
   height: 85px;
+  background-color: rgba(255, 255, 255, 0.97);
 }
 .header__logo {
   height: 80px;
@@ -72,7 +96,7 @@ a:active {
   margin: 25px 0;
 }
 
-/* header__tels */
+/* HEADER | header__tels */
 .header__tels > * {
   display: block;
   text-align: right;
@@ -84,7 +108,117 @@ a:active {
   font-size: 13px;
 }
 
-/* header__button */
+/* HEADER | header__button */
 .header__button {
   margin: 20px 0;
+}
+
+/* section Intro */
+.intro {
+  height: 685px;
+  padding-top: 110px;
+  margin-top: 85px;
+  text-align-last: left;
+  background: url(../images/intro/intro-bg.jpg) no-repeat center;
+}
+.intro__main-title {
+  font-family: Roboto Slab, sans-serif;
+  font-size: 57px;
+  margin-top: 0;
+}
+.intro__info-block {
+  margin-top: 85px;
+}
+.info-block {
+  padding-left: 80px;
+  min-height: 50px;
+}
+.info-block_1 {
+  background: url(../images/intro/shield.png) no-repeat top left;
+}
+.info-block_2 {
+  background: url(../images/intro/wallet.png) no-repeat top left;
+}
+.info-block_3 {
+  background: url(../images/intro/girl.png) no-repeat top left;
+}
+.intro__info-block .info-block {
+  margin-top: 30px;
+}
+.intro__info-block .info-block__title {
+  margin-bottom: 10px;
+}
+
+/*consultation section*/
+.consultation {
+  height: 580px;
+  padding-top: 75px;
+  background: url(../images/consultation/consultation-bg.jpg) no-repeat center
+    left 35%;
+}
+.form-block {
+  width: 100%;
+  height: 370px;
+  border: 10px solid #d8f0f0;
+  text-align: center;
+  padding: 25px 150px;
+}
+.consultation__form {
+  padding-top: 100px;
+  background: url(../images/consultation/line.png) no-repeat center top 40px;
+  border: none;
+}
+.form-block__subtitle {
+  font-size: 16px;
+}
+.form-block__input-text,
+.form-block__input-tel {
+  width: 100%;
+  height: 45px;
+  padding-left: 60px;
+  color: #667;
+  font-size: 15px;
+  border: 1px solid #d1d1d1;
+  border-radius: 30px;
+  background-color: #ffffff;
+  background-position: center left 30px;
+  background-repeat: no-repeat;
+}
+.form-block__input-text {
+  background-image: url(../images/form-block/avatar-icon.png);
+}
+.form-block__input-tel {
+  background-image: url(../images/form-block/telephone-icon.png);
+}
+.form-block__subtitle {
+  display: inline-block;
+  margin-bottom: 40px;
+}
+.form-section__tels {
+  margin-top: 50px;
+}
+.form-section__tel {
+  position: relative;
+  margin-left: 75px;
+}
+.form-section__tel:before {
+  content: "";
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 115%;
+  bottom: -5px;
+  background: url(../images/form-block/mobile-phone.png) no-repeat;
+}
+
+@media (max-width: 1199px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (max-width: 1099px) {
+  .container {
+    max-width: 750px;
+  }
 }
