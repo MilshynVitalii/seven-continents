@@ -425,6 +425,47 @@ a:active {
   background-color: #ff9a02;
 }
 
+/* special-offer section */
+.special-offer {
+  height: 1180px;
+  background: linear-gradient(120deg, #d8f0f0, #fdfde0);
+  padding-top: 100px;
+}
+.section-secondary-title span {
+  color: #ffffff;
+  background-color: #ffaf02;
+  padding: 5px;
+}
+.special-offer .section-secondary-title {
+  line-height: 2;
+}
+.special-offer__slider {
+  margin: 50px 0 70px;
+}
+.special-offer__info-block {
+  font-size: 20px;
+  font-weight: 400;
+}
+.special-offer__info-block .info-block {
+  padding-left: 100px;
+  padding-top: 10px;
+  height: 70px;
+}
+.special-offer__info-block .info-block_1 {
+  background-image: url(../images/special-offer/sea-icon.png);
+}
+.special-offer__info-block .info-block_2 {
+  background-image: url(../images/special-offer/bed-icon.png);
+}
+.special-offer__info-block .info-block_3 {
+  background-image: url(../images/special-offer/balcony-icon.png);
+}
+.special-offer-form {
+  margin-top: 70px;
+  background: #ffffff url(../images/special-offer/women.jpg) no-repeat center
+    right -30px;
+}
+
 @media (max-width: 1199px) {
   .container {
     max-width: 1100px;
