@@ -460,10 +460,50 @@ a:active {
 .special-offer__info-block .info-block_3 {
   background-image: url(../images/special-offer/balcony-icon.png);
 }
-.special-offer-form {
+.special-offer__form {
   margin-top: 70px;
   background: #ffffff url(../images/special-offer/women.jpg) no-repeat center
     right -30px;
+}
+
+/* citizen-rights section */
+.citizen-rights {
+  height: 1100px;
+  padding-top: 100px;
+}
+.fresco-docs {
+  width: 100%;
+  padding: 15px;
+  background-color: #d8f0f0;
+}
+.citizen-rights__docs-wrap {
+  background: url(../images/citizen-rights/happy.jpg) no-repeat center;
+}
+.citizen-rights__fresco-docs {
+  width: 330px;
+  margin: 0 auto;
+}
+.citizen-rights__titels {
+  font-size: 20px;
+  font-weight: 400;
+}
+.citizen-rights__titels > * {
+  text-align: left;
+}
+.citizen-rights__title {
+  margin-top: 0;
+}
+.ciziten-rights__text {
+  margin: 83px 0;
+}
+.ciziten-rights__text_last {
+  margin-bottom: 0;
+}
+.citizen-rights__form {
+  margin-top: 70px;
+  padding: 25px 140px;
+  background: url(../images/citizen-rights/citizen-form-bg.jpg) no-repeat bottom -90px
+    right -190px;
 }
 
 @media (max-width: 1199px) {
