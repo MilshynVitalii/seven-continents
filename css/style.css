@@ -198,7 +198,7 @@ a:active {
   margin-bottom: 40px;
 }
 .form-section__tels {
-  margin-top: 50px;
+  margin-top: 30px;
 }
 .form-section__tel {
   position: relative;
@@ -504,6 +504,52 @@ a:active {
   padding: 25px 140px;
   background: url(../images/citizen-rights/citizen-form-bg.jpg) no-repeat bottom -90px
     right -190px;
+}
+
+/* advantages section */
+.advantages {
+  padding: 85px 0 120px;
+  background: linear-gradient(120deg, #d8f0f0, #fdfde0);
+}
+.advantages__info-block {
+  width: 100%;
+  height: 100px;
+  margin-top: 75px;
+}
+.advantages__info-block .info-block {
+  padding-left: 150px;
+}
+.advantages__info-block .info-block_1 {
+  height: 100%;
+  background: url(../images/advantages/24hours-icon.png) no-repeat center left;
+}
+.advantages__info-block .info-block_2 {
+  height: 100%;
+  background: url(../images/advantages/dish-icon.png) no-repeat center left;
+}
+.advantages__info-block .info-block_3 {
+  height: 100%;
+  background: url(../images/advantages/cctv-icon.png) no-repeat center left;
+}
+.advantages__info-block .info-block_4 {
+  height: 100%;
+  background: url(../images/advantages/sun-umbrella-icon.png) no-repeat center
+    left;
+}
+.advantages__info-block .info-block_5 {
+  height: 100%;
+  background: url(../images/advantages/football-icon.png) no-repeat center left;
+}
+.advantages__info-block .info-block_6 {
+  height: 100%;
+  background: url(../images/advantages/property-icon.png) no-repeat center left;
+}
+.advantages__info-block .info-block__title {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.advantages__info-block .info-block__description {
+  font-size: 17px;
 }
 
 @media (max-width: 1199px) {
