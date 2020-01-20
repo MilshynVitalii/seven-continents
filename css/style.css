@@ -26,6 +26,9 @@ a:hover {
 a:active {
   text-decoration: none;
 }
+input:focus {
+  outline: none;
+}
 
 /* Main blocks */
 .container {
@@ -476,6 +479,9 @@ a:active {
   padding: 15px;
   background-color: #d8f0f0;
 }
+.fresco-img:hover {
+  box-shadow: 0 0 4px 0 #001e28;
+}
 .citizen-rights__docs-wrap {
   background: url(../images/citizen-rights/happy.jpg) no-repeat center;
 }
@@ -554,7 +560,7 @@ a:active {
 
 /* president saction */
 .president {
-  padding: 75px 0 100px;
+  padding: 75px 0 80px;
 }
 .president__photo {
   margin: 50px 0;
@@ -586,6 +592,45 @@ a:active {
 }
 .team__title {
   margin-top: 0;
+}
+
+/* collage section */
+.collage {
+  padding: 75px 0 320px;
+  background: url(../images/collage/collage.jpg),
+    linear-gradient(120deg, #d8f0f0, #fdfde0);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+.collage__info-block {
+  margin: 60px 0 100px;
+  font-size: 15px;
+  text-align: center;
+}
+.collage__info-block .section-secondary-title {
+  margin-bottom: 60px;
+}
+.collage__info-block .info-block {
+  padding-left: 0;
+}
+.collage__info-block .info-block__title {
+  font-size: 20px;
+  margin: 190px 0 20px;
+}
+.collage__info-block .info-block__description {
+  line-height: 1.7;
+}
+.collage__info-block .info-block_1 {
+  background: url(../images/collage/learning-icon.png) no-repeat center top 50px;
+}
+.collage__info-block .info-block_2 {
+  background: url(../images/collage/dancer-icon.png) no-repeat center top 50px;
+}
+.collage__info-block .info-block_3 {
+  background: url(../images/collage/kneecap-icon.png) no-repeat center top 50px;
+}
+.collage__info-block .info-block_4 {
+  background: url(../images/collage/exam-icon.png) no-repeat center top 50px;
 }
 
 @media (max-width: 1199px) {
