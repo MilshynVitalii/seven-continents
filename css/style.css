@@ -633,6 +633,55 @@ input:focus {
   background: url(../images/collage/exam-icon.png) no-repeat center top 50px;
 }
 
+/* five-steps section */
+.five-steps {
+  padding: 75px 0 100px;
+  background: url(../images/five-steps/five-steps-bg.jpg) no-repeat bottom
+    center;
+}
+.five-steps__info-block .info-block {
+  font-weight: 400;
+  line-height: 1.7;
+  text-align: center;
+  padding-left: 0;
+  padding-top: 150px;
+  width: 270px;
+  margin: 75px auto 0;
+}
+.five-steps__info-block a {
+  border-bottom: 4px solid #ffaf02;
+}
+.five-steps__info-block a:hover {
+  text-decoration: none;
+  border-bottom: 4px solid #ff9a02;
+}
+.five-steps__info-block a:active {
+  text-decoration: none;
+  border-bottom: 4px solid #ffcc02;
+}
+.five-steps__info-block .info-block_1 {
+  background: url(../images/five-steps/writing-icon.png);
+}
+.five-steps__info-block .info-block_2 {
+  background: url(../images/five-steps/customer-service-icon.png);
+}
+.five-steps__info-block .info-block_3 {
+  background: url(../images/five-steps/clipboard-icon.png);
+}
+.five-steps__info-block .info-block_4 {
+  background: url(../images/five-steps/blogging-icon.png);
+}
+.five-steps__info-block .info-block_5 {
+  background: url(../images/five-steps/team-icon.png);
+}
+.five-steps__info-block .info-block_6 {
+  background: url(../images/five-steps/girl-icon.png);
+}
+.five-steps__info-block .info-block {
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
 @media (max-width: 1199px) {
   .container {
     max-width: 1100px;
