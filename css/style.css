@@ -682,6 +682,26 @@ input:focus {
   background-position: top center;
 }
 
+/* license section */
+.license {
+  padding: 75px 0 100px;
+  background: linear-gradient(120deg, #d8f0f0, #fdfde0);
+}
+.licence__fresco-docs {
+  margin-top: 100px;
+}
+.fresco-docs__subtitle {
+  display: block;
+  margin-top: 25px;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+.licence__fresco-docs .fresco-docs {
+  width: 270px;
+  margin: 0 auto;
+}
+
 @media (max-width: 1199px) {
   .container {
     max-width: 1100px;
