@@ -690,16 +690,39 @@ input:focus {
 .licence__fresco-docs {
   margin-top: 100px;
 }
-.fresco-docs__subtitle {
+.licence__fresco-docs .fresco-docs__subtitle {
   display: block;
   margin-top: 25px;
   font-size: 18px;
   font-weight: 400;
   text-align: center;
 }
-.licence__fresco-docs .fresco-docs {
+.licence__fresco-docs .fresco-docs,
+.documents__fresco-docs .fresco-docs {
   width: 270px;
   margin: 0 auto;
+}
+
+/* documents section */
+.documents {
+  padding: 75px 0 100px;
+  background: url(../images/documents/documents-bg.jpg) no-repeat top center;
+}
+.documents .section-title {
+  margin-bottom: 55px;
+}
+.documents__fresco-docs {
+  margin: 55px 0;
+}
+.documents__fresco-docs .fresco-docs {
+  padding: 10px;
+}
+.documents__fresco-docs .fresco-docs__subtitle {
+  display: block;
+  text-align: center;
+  margin: 5px 0;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 @media (max-width: 1199px) {
