@@ -725,6 +725,35 @@ input:focus {
   font-weight: 400;
 }
 
+/* footer section */
+.footer {
+  background: linear-gradient(120deg, #d8f0f0, #fdfde0);
+}
+.footer__map {
+  width: 100%;
+  padding-right: 70px;
+}
+.footer__main * {
+  display: block;
+  text-align: left;
+}
+.footer__main {
+  padding: 75px 0 100px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.footer__main .section-title {
+  margin-bottom: 70px;
+}
+.footer__info {
+  margin: 40px 0 20px;
+  font-size: 15px;
+  color: #007ca5;
+}
+.footer__main p:last-of-type{
+  margin-top: 40px;
+}
+
 @media (max-width: 1199px) {
   .container {
     max-width: 1100px;
