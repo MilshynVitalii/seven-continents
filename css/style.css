@@ -86,10 +86,10 @@ input:focus {
   position: fixed;
   width: 100%;
   top: 0;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 0;
   height: 85px;
   background-color: rgba(255, 255, 255, 0.97);
+  transition: transform 0.3s ease-out;
   z-index: 11;
 }
 .header__logo {
@@ -750,7 +750,7 @@ input:focus {
   font-size: 15px;
   color: #007ca5;
 }
-.footer__main p:last-of-type{
+.footer__main p:last-of-type {
   margin-top: 40px;
 }
 
