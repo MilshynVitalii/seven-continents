@@ -245,23 +245,25 @@ input:focus {
   background-color: #c8e0dc;
 }
 .tours__button:focus {
-  background-color: #ffaf02;
   outline: none;
+}
+.tours__button.active-tours__button {
+  background-color: #ffaf02;
   color: #fff;
 }
-.tours__button_f:focus::before {
+.tours__button_f.active-tours__button::before {
   animation: anim-right 0.5s ease forwards;
 }
-.tours__button_s:focus::before {
+.tours__button_s.active-tours__button::before {
   animation: anim-both 0.5s ease forwards;
 }
-.tours__button_s:focus::after {
+.tours__button_s.active-tours__button::after {
   animation: anim-both 0.5s ease forwards;
 }
-.tours__button_t:focus::after {
+.tours__button_t.active-tours__button::after {
   animation: anim-left 0.5s ease forwards;
 }
-.tours__button_f::before {
+.tours__button_f.active-tours__button::before {
   content: "";
   position: absolute;
   display: inline-block;
@@ -273,7 +275,7 @@ input:focus {
   background-color: #ffaf02;
   z-index: 10;
 }
-.tours__button_s::before {
+.tours__button_s.active-tours__button::before {
   content: "";
   position: absolute;
   display: inline-block;
@@ -285,7 +287,7 @@ input:focus {
   background-color: #ffaf02;
   z-index: 10;
 }
-.tours__button_s::after {
+.tours__button_s.active-tours__button::after {
   content: "";
   position: absolute;
   display: inline-block;
@@ -297,7 +299,7 @@ input:focus {
   background-color: #ffaf02;
   z-index: 10;
 }
-.tours__button_t::after {
+.tours__button_t.active-tours__button::after {
   content: "";
   position: absolute;
   display: inline-block;
@@ -341,6 +343,7 @@ input:focus {
   border: 2px solid #d8f0f0;
   text-align: center;
   cursor: pointer;
+  transition: all 0.5s ease;
 }
 .tours__item-photo {
   width: 100%;
